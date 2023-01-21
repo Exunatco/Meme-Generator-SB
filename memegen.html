@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="memegen.css">
+</head>
+
+
+<body>
+    <h1>Are you the dankest memester in town?</h1>
+    <form id="meme-form">
+        <p>
+            <label for="meme-img">Meme Img URL</label>
+            <input type="text" id="meme-img" placeholder="Pic Url Plz">
+        </p>
+        <p>
+            <label for="meme-topLine">Top Line Text</label>
+            <input type="text" id="meme-topLine" placeholder="Top Text Plz">
+        </p>
+        <p>
+            <label for="meme-bottomLine">Bottom Line Text</label>
+            <input type="text" id="meme-bottomLine" placeholder="Bottom Text Plz">
+        </p>
+        <input class="button" type="submit" value="Submit">
+        
+    </form>
+    
+    <section class="results"></section>
+    
+    <p class="delete">click on image to delete</p>
+</body>
+<script src="memegen.js"></script>
+
+</html>

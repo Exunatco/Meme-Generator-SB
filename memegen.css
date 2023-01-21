@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+body{
+    background-color: #A7C4BC;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #2F5D62;
+}
+
+#meme-form{
+    float:left;
+    margin: auto 0;
+    padding: 80px 25px;
+    font-family:fantasy;
+
+}
+form p{
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.memeImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.results{
+    float:right;
+    position:relative;
+    width:80%;
+    margin: 0 auto;
+
+}
+
+.delete{
+    clear:both;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    width:40%;
+    margin: 5px;
+}
+
+.meme{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color:white;
+    font-size: 3em;
+    /*<Yi Jiang>(<1/23/11>)https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text*/
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.memeTop{
+    top: 0;
+}
+.memeBottom{
+    bottom: 0;
+}
+
+.button{
+    padding: 0 100px;
+}
